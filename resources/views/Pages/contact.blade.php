@@ -2,7 +2,7 @@
 @section('content')
 
             <h1>Contact</h1>
-            <p class="lead">Use this to contact the site owner.</p>
+            <p class="lead">Please use this form to contact the site owner.</p>
 
             <form role="form" id="contact-form" class="contact-form" method="POST"  action="{{route('contact.store')}}">
                 {{ csrf_field() }}
